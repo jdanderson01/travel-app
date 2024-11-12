@@ -23,6 +23,7 @@ module.exports = {
           50: '#FF814C',
         },
         blue: {
+          50: '#4169e1',
           70: '#021639',
         },
         yellow: {
@@ -30,6 +31,7 @@ module.exports = {
         },
       },
       backgroundImage: {
+        'space-gradient': 'linear-gradient(to right, #021639, #240046, #4169e1)',
         'bg-img-1': "url('/img-1.png')",
         'bg-img-2': "url('/img-2.png')",
         'feature-bg': "url('/feature-bg.png')",

@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className="bg-space-gradient">
         <Navbar />
         <main className="relative overflow-hidden">{children}</main>
         <Footer />
